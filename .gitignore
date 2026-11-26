@@ -1,0 +1,16 @@
+.venv/
+.uv-cache/
+.bin/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local SQLite files; Docker Compose uses a named volume.
+*.db
+*.db-wal
+*.db-shm
+data/
+
+.DS_Store
